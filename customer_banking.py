@@ -20,8 +20,8 @@ def main():
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print('Your balance is : $',{format(Savings_interest_earned,',.2f')})
-    print('Your balance is : $',{format(updated_savings_balance,',.2f')})
+    print('Your interest earned in Savings  is : $',{format(Savings_interest_earned,',.2f')})
+    print('Your updated savings account balance with interest earned for the given months : $',{format(updated_savings_balance,',.2f')})
     
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
@@ -35,8 +35,8 @@ def main():
 
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print('Your balance is : $',{format(CD_interest_earned,',.2f')})
-    print('Your balance is : $',{format(updated_cd_balance,',.2f')})
+    print('Your CD interest earned balance is : $',{format(CD_interest_earned,',.2f')})
+    print('Your updated CD account balance with interest earned for the given months : $',{format(updated_cd_balance,',.2f')})
 
 if __name__ == "__main__":
     # Call the main function.
